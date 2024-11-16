@@ -1,0 +1,89 @@
+* {
+  font-family: "figtree";
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  width: 336px;
+  height: 474px;
+  border-radius: 20px;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.blog-card {
+  height: 200px;
+}
+
+.blog-card img {
+  clip-path: inset(0 round 10px);
+}
+.lower {
+  padding-top: 24px;
+}
+
+.learning {
+  background-color: hsl(47, 88%, 63%);
+  display: inline-block;
+  font-size: 16px;
+  line-height: 150%;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.date,
+.heading,
+.text {
+  margin: 12px 0 0 0;
+}
+
+.date {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.text {
+  font-weight: 500;
+  color: #6b6b6b;
+}
+
+.thumbnail {
+  height: 32px;
+  width: 32px;
+  padding-right: 14px;
+}
+
+.creator {
+  margin-top: 24px;
+  display: flex;
+}
+
+.author {
+  margin: 0px;
+  align-content: center;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.heading:hover {
+  color: #f4d04e;
+}
